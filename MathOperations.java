@@ -1,3 +1,5 @@
+import java.util.LinkedHashMap;
+
 public class MathOperations {
     public static int add(int... numbers) {
         if (numbers.length == 0) throw new IllegalArgumentException("At least one number is required!");
